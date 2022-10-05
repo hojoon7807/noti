@@ -34,10 +34,12 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
+processResources.dependsOn('copyPrivate')
+
 task copyPrivate(type: Copy) {
 	copy {
-		from './PDG-privates'
-		include "*.yml"
-		into 'src/main/resources/privates'
+		from './noti-config'
+		include "*.yaml"
+		into 'src/main/resources'
 	}
 }
