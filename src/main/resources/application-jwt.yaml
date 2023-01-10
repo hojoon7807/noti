@@ -1,0 +1,2 @@
+jwt:
+  secret: secretKey-local-jwt-for-noti-project-update
