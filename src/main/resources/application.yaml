@@ -6,8 +6,10 @@ spring:
         - jwt
         - swagger
         - socialid
+        - security
       dev:
         - jwt
         - swagger
         - socialid
+        - security
     active: local
