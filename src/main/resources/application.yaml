@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    group:
+      local:
+        - localdb
+        - jwt
+        - swagger
+        - socialid
+        - security
+      dev:
+        - jwt
+        - swagger
+        - socialid
+        - security
+    active: local

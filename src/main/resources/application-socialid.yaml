@@ -1,0 +1,6 @@
+kakao:
+  code : "101010"
+  url : "https://kapi.kakao.com/v2/user/me"
+apple:
+  code: "101011"
+  url: "https://appleid.apple.com/auth/keys"
